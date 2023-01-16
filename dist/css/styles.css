@@ -4053,9 +4053,9 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  height:fit-content;
 }
 .navbar-nav {
   display: flex;
@@ -11410,7 +11410,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/squirel.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11716,6 +11716,12 @@ header.masthead .masthead-heading {
 
 .img-brand {
   height: 2.75rem;
+}
+
+.text-black-background {
+  background-color: #000;
+  opacity: 0.7;
+  padding: 8px;
 }
 
 section#contact {
