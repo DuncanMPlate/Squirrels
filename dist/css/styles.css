@@ -639,6 +639,12 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+
+}
+
+.hero-text {
+text-align: left;
+max-width: 200px;
 }
 
 @media (min-width: 576px) {
@@ -11410,7 +11416,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/squirel.jpg");
+  
+  background: linear-gradient(90deg,  rgba(0, 0, 0, .5), rgba(255, 255, 255, 0)), url(../assets/squirel.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
